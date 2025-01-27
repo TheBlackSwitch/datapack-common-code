@@ -1,0 +1,1 @@
+$data modify storage $(result) set from storage designer:player_storage players[$(player_id)].$(path)
