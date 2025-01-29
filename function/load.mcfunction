@@ -1,3 +1,6 @@
+##ATTENTION, THIS FILE CAN RUN MULTIPLE TIMES!!
+
+##Init tick function
 schedule function theblackswitch:tick 1t replace
 
 ##Inits

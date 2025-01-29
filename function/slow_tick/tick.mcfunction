@@ -1,12 +1,12 @@
-scoreboard players add .2 slow_tick 2
-scoreboard players add .3 slow_tick 3
-scoreboard players add .4 slow_tick 4
-scoreboard players add .5 slow_tick 5
-scoreboard players add .6 slow_tick 6
-scoreboard players add .7 slow_tick 7
-scoreboard players add .8 slow_tick 8
-scoreboard players add .9 slow_tick 9
-scoreboard players add .10 slow_tick 10
+scoreboard players add .2 slow_tick 1
+scoreboard players add .3 slow_tick 1
+scoreboard players add .4 slow_tick 1
+scoreboard players add .5 slow_tick 1
+scoreboard players add .6 slow_tick 1
+scoreboard players add .7 slow_tick 1
+scoreboard players add .8 slow_tick 1
+scoreboard players add .9 slow_tick 1
+scoreboard players add .10 slow_tick 1
 
 execute if score .2 slow_tick matches 2.. run scoreboard players set .2 slow_tick 0
 execute if score .3 slow_tick matches 3.. run scoreboard players set .3 slow_tick 0
