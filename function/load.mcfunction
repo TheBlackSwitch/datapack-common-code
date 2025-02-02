@@ -9,3 +9,4 @@ function theblackswitch:slow_tick/init
 
 ##scoreboards
 scoreboard objectives add temp dummy
+scoreboard objectives add tbs.server_data dummy
