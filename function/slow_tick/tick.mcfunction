@@ -11,6 +11,7 @@ scoreboard players add .10 slow_tick 1
 scoreboard players add .18 slow_tick 1
 scoreboard players add .20 slow_tick 1
 scoreboard players add .22 slow_tick 1
+scoreboard players add .32 slow_tick 1
 scoreboard players add .40 slow_tick 1
 scoreboard players add .44 slow_tick 1
 scoreboard players add .60 slow_tick 1
@@ -38,6 +39,7 @@ execute if score .10 slow_tick matches 11.. run scoreboard players set .10 slow_
 execute if score .18 slow_tick matches 19.. run scoreboard players set .18 slow_tick 1
 execute if score .20 slow_tick matches 21.. run scoreboard players set .20 slow_tick 1
 execute if score .22 slow_tick matches 23.. run scoreboard players set .22 slow_tick 1
+execute if score .32 slow_tick matches 33.. run scoreboard players set .32 slow_tick 1
 execute if score .40 slow_tick matches 41.. run scoreboard players set .40 slow_tick 1
 execute if score .44 slow_tick matches 45.. run scoreboard players set .44 slow_tick 1
 execute if score .60 slow_tick matches 61.. run scoreboard players set .60 slow_tick 1
