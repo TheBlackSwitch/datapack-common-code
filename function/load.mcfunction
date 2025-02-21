@@ -2,7 +2,7 @@
 
 ##Reset Versions:
 data remove storage theblackswitch:versions lib
-data remove storage theblackswitch:versions pack
+data remove storage theblackswitch:versions packs
 
 ##Init tick function
 schedule function theblackswitch:tick 1t replace
