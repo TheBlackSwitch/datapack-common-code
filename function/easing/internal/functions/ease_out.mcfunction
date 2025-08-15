@@ -4,9 +4,14 @@
 
 ## -t^2
 scoreboard players operation .x temp = .t temp
+scoreboard players operation .x temp /= .10 temp
 scoreboard players operation .x temp *= .t temp
+tellraw @a [{"score":{"objective":"temp","name":".x"},"extra":[" t^2"]}] 
+
 scoreboard players operation .x temp *= .-1 temp
 scoreboard players operation .x temp /= .1000 temp
+
+tellraw @a [{"score":{"objective":"temp","name":".x"},"extra":[" -t^2"]}]
 
 ## 2t
 scoreboard players operation .2t temp = .t temp
