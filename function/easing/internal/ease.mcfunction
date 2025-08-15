@@ -87,8 +87,6 @@ scoreboard players operation @s tbs.easing.prev_z = .curr_z temp
 scoreboard players operation @s tbs.easing.prev_yaw = .curr_yaw temp
 scoreboard players operation @s tbs.easing.prev_pitch = .curr_pitch temp
 
-tellraw @a [{"score":{"objective":"temp","name":".t"},"extra":[" "]},{"score":{"objective":"temp","name":".x"},"extra":[" "]},{"score":{"objective":"temp","name":".curr_x"},"extra":[" "]},{"score":{"objective":"temp","name":".curr_y"},"extra":[" "]},{"score":{"objective":"temp","name":".curr_z"},"extra":[" "]},{"score":{"objective":"temp","name":".curr_yaw"},"extra":[" "]},{"score":{"objective":"temp","name":".curr_pitch"},"extra":[" "]}]
-
 ## Teleport
 data modify entity @s teleport_duration set value 5
 function theblackswitch:easing/internal/teleport with storage theblackswitch:temp easing.displacement
