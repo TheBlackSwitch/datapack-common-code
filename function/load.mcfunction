@@ -5,8 +5,7 @@ data remove storage theblackswitch:versions lib
 data remove storage theblackswitch:versions packs
 
 ##Init tick function
-schedule function theblackswitch:tick 1t replace
-schedule function theblackswitch:version_control/init 1t replace
+function theblackswitch:version_control/init
 
 ##Inits
 function theblackswitch:player_id/init
